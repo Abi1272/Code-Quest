@@ -1,0 +1,9 @@
+import sys
+import math
+import string
+
+cases = int(sys.stdin.readline().rstrip())
+for caseNum in range(cases):
+    line = input().rstrip()
+    line = line.split(" ")
+    print(int(line[0])*2 + int(line[1])*4 + int(line[2])*4)
